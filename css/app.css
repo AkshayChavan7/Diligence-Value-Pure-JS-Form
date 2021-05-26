@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient( circle, yellow, #f06d06);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.headerTitle {
+    font-family: 'Poiret One', cursive;
+    margin-top: 0;
+    padding-top: 15px;
+    padding-left: 17px;
+    font-size: 30px;
+    color: #f3f3f3;
+    font-weight: bold;
+}
+
+header {
+    margin-top: 0%;
+    width: 100%;
+    min-height: 68px;
+    background: linear-gradient(90deg, #f06d06 0%, rgb(209, 176, 85) 49%, #f06d06 100%);
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+    width: 100%;
+    /* background: radial-gradient( circle, #f7f718, #f06d06); */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(180, 123, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1 {
+    /* text-shadow: 0 2px rgb(240, 175, 90), 0 3px #777; */
+    font-family: 'Poiret One', cursive;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+#outer-container {
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.473);
+    box-shadow: 2px 2px 2px 1px rgba(49, 49, 49, 0.6);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+#outer-container:hover {
+    transform: scale(1.01);
+}
+
+.questionDiv {
+    margin-top: 30px;
+}
+
+#successDiv {
+    display: none;
+    visibility: hidden;
+    height: 100%;
+    margin-top: 10%;
+}
+
+input, textarea {
+    margin: 5px 10px;
+}
+
+
+
+textarea, input[type=text], input[type=number], input[type=email], input[type=textarea] {
+    border: none !important;
+    background-color: #eeeeee;
+    padding-top: 0.275em;
+    padding-bottom: 0.275em;
+    width: 15em;
+    margin-right: 0.5em;
+    color: #676765;
+    border-radius: 0.2em;
+    height: 25px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: left;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+textarea:focus, input[type=text]:focus, input[type=number]:focus, input[type=email]:focus {
+    outline: 1px solid #ee9841 !important;
+    background-color: #eeeeee;
+    padding-top: 0.275em;
+    padding-bottom: 0.275em;
+    width: 15em;
+    margin-right: 0.5em;
+    color: #676765;
+    border-radius: 0.2em;
+    height: 25px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: left;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    box-shadow: 0px 2px 7px rgba(136, 136, 136, 0.4);
+}
+
+textarea:hover, input:hover {
+    box-shadow: 0px 2px 7px rgba(136, 136, 136, 0.4);
+}
+
+.mandatoryQuestion {
+    color: red;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 3px solid #333;
+}
+
+#submit {
+    background: #f06d06;
+    /* text-align: center; */
+    margin: auto;
+    display: block;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 13px;
+}
+
+
+/* for creating ratingbar with radio buttons */
+.ratingLabel {
+    display: inline;
+    padding: 0px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.ratingLabel .ratingInput {
+    display: none;
+}
+
+.ratingLabel .ratingSpan {
+    border: 1px solid #ccc;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    overflow: hidden;
+    line-height: 1;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 10pt;
+    left: 0;
+    top: 50%;
+    margin-top: -7.5px;
+}
+
+.ratingInput:checked+.ratingSpan {
+    background: rgb(26, 243, 44);
+    border-color: rgb(1, 141, 25);
+}
+
+
+/* ratingbar radio end */
