@@ -1,4 +1,4 @@
-# DiligenceValue- Pure JS Form
+# DiligenceVault- Pure JS Form
 
 **Problem Statement:**
 
